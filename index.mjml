@@ -1,0 +1,97 @@
+<mjml>
+  <mj-head>
+    <mj-title>Your Footlocker Order Confirmation</mj-title>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+    <mj-attributes>
+      <mj-all font-family="Roboto, Arial, sans-serif" />
+    </mj-attributes>
+    <mj-style> .link-hover:hover { color: #e32b13 !important; } </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#f4f4f4">
+    <!-- Header Section -->
+    <mj-section background-color="#ffffff" padding="20px 0">
+      <mj-column>
+        <mj-image src="./images/logo.jpg" alt="Footlocker Logo" width="200px" align="center" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Thank You Message -->
+    <mj-section background-color="#ffffff" padding-top="40px">
+      <mj-column>
+        <mj-text font-size="28px" color="#000000" align="center" font-weight="bold"> Thank You For Your Order! </mj-text>
+        <mj-text font-size="16px" color="#666666" align="center" line-height="24px"> We're excited to confirm your purchase of the iconic Air Jordan shoes. </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Order Details -->
+    <mj-section background-color="#ffffff" padding-top="20px">
+      <mj-column>
+        <mj-image src="./images/shoe.png" alt="Air Jordan Shoes" width="400px" padding="20px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Product Details -->
+    <mj-section background-color="#ffffff">
+      <mj-column>
+        <mj-text font-size="20px" font-weight="bold" color="#000000"> Order Details </mj-text>
+        <mj-divider border-color="#e5e5e5" border-width="1px" padding="10px 0" />
+        <mj-text font-size="16px" color="#000000">
+          <strong>Product:</strong> Air Jordan 1 Retro High OG<br />
+          <strong>Style Code:</strong> 555088-123<br />
+          <strong>Size:</strong> US 10<br />
+          <strong>Price:</strong> $180.00
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Shipping Info -->
+    <mj-section background-color="#ffffff" padding-top="20px">
+      <mj-column>
+        <mj-text font-size="20px" font-weight="bold" color="#000000"> Shipping Information </mj-text>
+        <mj-divider border-color="#e5e5e5" border-width="1px" padding="10px 0" />
+        <mj-text font-size="16px" color="#000000">
+          Your order will be shipped via FedEx<br />
+          Estimated delivery: 3-5 business days<br />
+          Tracking number: Will be sent in a separate email
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- CTA Buttons -->
+    <mj-section background-color="#ffffff" padding="30px 0">
+      <mj-column width="50%">
+        <mj-button background-color="#e32b13" color="white" font-size="16px" font-weight="bold" border-radius="3px" href="https://www.footlocker.com/order/status"> Track Order </mj-button>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-button background-color="#000000" color="white" font-size="16px" font-weight="bold" border-radius="3px" href="https://www.footlocker.com/account"> View Account </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Social Proof -->
+    <mj-section background-color="#ffffff" padding="20px 0">
+      <mj-column>
+        <mj-text font-size="18px" color="#000000" align="center"> Share your new kicks with us! </mj-text>
+        <mj-social font-size="15px" icon-size="30px" mode="horizontal" padding="20px">
+          <mj-social-element name="instagram" href="https://www.instagram.com/footlocker"> </mj-social-element>
+          <mj-social-element name="facebook" href="https://www.facebook.com/footlocker"> </mj-social-element>
+          <mj-social-element name="twitter" href="https://www.twitter.com/footlocker"> </mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section background-color="#000000" padding="20px 0">
+      <mj-column>
+        <mj-text color="#ffffff" font-size="14px" align="center" line-height="20px">
+          © 2024 Footlocker, Inc. All Rights Reserved<br />
+          Need help? <a href="https://www.footlocker.com/help" style="color: #ffffff; text-decoration: underline" class="link-hover">Contact Support</a>
+        </mj-text>
+        <mj-text color="#ffffff" font-size="12px" align="center" padding-top="10px">
+          This email was sent to confirm your recent purchase.<br />
+          Please do not reply to this email.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
